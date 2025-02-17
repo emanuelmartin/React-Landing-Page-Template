@@ -14,10 +14,10 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
+                  
+                  style={{ float: "right", marginLeft: "10px", marginBottom: "155px" }}
                 >
-                  Learn More
+                  
                 </a>{" "}
               </div>
             </div>
