@@ -211,9 +211,10 @@ a:focus,
   height: 100vh; /* Full viewport height */
   width: 100vw; /* Full viewport width */
   background: url("../img/intro-bg.jpeg") center center no-repeat;
-  background-size: contain; /* Ensures the entire image is shown without cropping */
-  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  background-size: cover; /* Ensures it fills the entire viewport */
+  background-attachment: scroll; /* Prevents issues on mobile */
 }
+
 
 /* Button Styling */
 .btn-custom {
@@ -228,7 +229,32 @@ a:focus,
   right: 20px; /* Places button at right */
 }
 
+@media (max-width: 1024px) {
+  .intro {
+    background-size: 160% auto; /* Zooms in more for better fitting */
+    background-position: center center; /* Keeps the top part visible */
+    background-attachment: fixed; /* Prevents scrolling */
+  }
+}
 
+/* Adjust background size for mobile screens */
+@media (max-width: 768px) {
+  .intro {
+    background-size: 200% auto; /* Zooms in more for better fitting */
+    background-position: center center; /* Keeps the top part visible */
+    background-attachment: fixed; /* Prevents scrolling */
+  }
+}
+
+/* Adjust background for smaller phones */
+@media (max-width: 480px) {
+  .intro {
+    background-size: 180% auto; /* Avoids extreme cropping on narrow screens */
+    background-attachment: fixed; /* Prevents scrolling */
+    background-position: center center; /* Keeps the top part visible */
+
+  }
+}
 
 /* Features Section */
 #features {
