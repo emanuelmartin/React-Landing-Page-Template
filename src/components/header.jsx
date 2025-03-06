@@ -1,24 +1,16 @@
 import React from "react";
 
-export const Header = (props) => {
+export const Header = () => {
   return (
     <header id="header">
       <div className="intro">
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  
-                  style={{ float: "right", marginLeft: "10px", marginBottom: "155px" }}
-                >
-                  
-                </a>{" "}
+              <div className="col-12 text-right">
+                <a href="#services" className="btn btn-custom">
+                  Ver nuestros productos
+                </a>
               </div>
             </div>
           </div>

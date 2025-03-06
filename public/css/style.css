@@ -205,45 +205,31 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
-  width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpeg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background: url("../img/intro-bg.jpeg") center center no-repeat;
+  background-size: contain; /* Ensures the entire image is shown without cropping */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
 }
-.intro .overlay {
-  /* background: rgba(0, 0, 0, 0.2); */
+
+/* Button Styling */
+.btn-custom {
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  position: absolute;
+  bottom: 20px; /* Places button at bottom */
+  right: 20px; /* Places button at right */
 }
-.intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.intro h1 span {
-  font-weight: 800;
-  color: #5ca9fb;
-}
-.intro p {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 300;
-  line-height: 30px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
-header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
-  text-align: center;
-}
+
+
+
 /* Features Section */
 #features {
   background: #f6f6f6;

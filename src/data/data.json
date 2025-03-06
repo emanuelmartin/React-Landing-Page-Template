@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "",
-    "paragraph": ""
+    "title": "DASNER PETCARE",
+    "paragraph": "Óptimo balance para su nutrición"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Nuestro alimento balanceado en croquetas está especialmente formulado para satisfacer las necesidades nutricionales de perros y gatos de todas las edades y tamaños. Con ingredientes de alta calidad, esta receta garantiza una dieta completa y equilibrada, promoviendo la salud general y el bienestar de tu mascota. Cada croqueta está diseñada para ofrecer un óptimo contenido de proteínas, grasas, vitaminas y minerales, favoreciendo el mantenimiento de un pelaje brillante, dientes y huesos fuertes, y un sistema digestivo saludable. Su sabor excepcional asegura que tu mascota disfrute de cada bocado, mientras se beneficia de una nutrición completa.",
+    "mission": "Somos una empresa 100% Alteña comprometida a ofrecer productos de la más alta calidad que garanticen la felicidad y bienestar de las mascotas, cumpliendo con los estándares más rigurosos de seguridad y nutrición. En Dasner, creemos en la importancia de cuidar a los animales con productos que reflejen nuestro compromiso con la salud y la felicidad, brindando siempre óptimo balance para su nutrición.",
+    "vision": "Ser la solución perfecta para todos aquellos que buscan excelencia en alimentación para sus mascotas, llegar a todos los hogares mexicanos y expandirnos a nuevas fronteras.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Innovación",
+      "Calidad",
+      "Responsabilidad"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Compromiso",
+      "Trabajo en equipo",
+      "Servicio al cliente"
     ]
   },
   "Gallery": [
@@ -68,34 +68,25 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
+      "name": "Dasner 18% Proteína",
+      "text": "Alimento premium para perros adultos, formulado con un elevado porcentaje de proteína que favorece el fortalecimiento y estimulación del sistema inmunológico. Su alta palatabilidad, sabor excepcional y balance perfecto lo convierten en una opción ideal para su mascota. La fórmula de este producto ofrece múltiples beneficios, tales como vitalidad y energía equilibrada, un pelaje brillante, heces firmes y sin malos olores, una digestión optimizada, así como huesos y dentadura fuertes"
+},
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Dasner 16% Proteína",
+      "text": "Alimento completo para perros adultos de todas las razas y tamaños, diseñado para cubrir de manera óptima todos los requerimientos nutricionales necesarios para mantener dientes sanos y fuertes. La selección de ingredientes de alta calidad garantiza un equilibrio ideal entre proteínas, grasas, fibras, vitaminas y minerales, lo que permite al animal obtener la energía necesaria para mantenerse saludable."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Dasner Puppy",
+      "text": "Alimento para cachorros destaca por su alto contenido de proteínas, lo que fortalece el sistema inmunológico y favorece un crecimiento saludable.  Su fórmula, de alta palatabilidad y sabor, asegura un balance perfecto entre nutrientes, promoviendo una buena digestión, huesos y dientes fuertes, así como un pelaje brillante. Además, contribuye a la formación de heces firmes y sin malos olores."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Dasner Cat",
+      "text": " Alimento 100% balanceado está especialmente formulado para cubrir las necesidades nutricionales de todo tipo de gatos. Gracias a su alto porcentaje de proteínas de la más alta calidad, obtenidas a partir de materias primas seleccionadas cuidadosamente, ofrece una nutrición óptima para su mascota. Enriquecido con taurina, vitaminas esenciales y otros nutrientes clave, esta receta ha sido diseñada para mantener el equilibrio adecuado de las funciones fisiológicas del organismo de su gato, garantizando su bienestar y salud a largo plazo."
     }
+    
   ],
   "Testimonials": [
     {
@@ -152,12 +143,9 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Carretera Tepatitlán - Arandas KM3, Tepatitlán Jalisco, México. C.P. 37600",
+    "phone": "378 109 0554 o 378 116 0470",
+    "email": "dasner@dasnerpetcare.com"
   },
   "Features": [
     {

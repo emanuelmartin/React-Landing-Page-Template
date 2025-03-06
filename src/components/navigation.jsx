@@ -12,13 +12,13 @@ export const Navigation = (props) => {
             data-target="#bs-example-navbar-collapse-1"
           >
             {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
+            <span className="sr-only">Menú</span>{" "}
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            Dasner Petcare
           </a>{" "}
         </div>
 
@@ -27,39 +27,40 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
+          <li>
+              <a href="#about" className="page-scroll">
+                Quiénes somos
+              </a>
+            </li>
+            {/* <li>
               <a href="#features" className="page-scroll">
                 Features
               </a>
-            </li>
-            <li>
-              <a href="#about" className="page-scroll">
-                About
-              </a>
-            </li>
+            </li> */}
+            
             <li>
               <a href="#services" className="page-scroll">
-                Services
+                Productos
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#team" className="page-scroll">
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Contáctanos
               </a>
             </li>
           </ul>

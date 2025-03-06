@@ -5,10 +5,10 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Nuestros productos</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Comprometidos con la mejor calidad y servicio, ofrecemos una amplia
+            variedad de productos
           </p>
         </div>
         <div className="row">
