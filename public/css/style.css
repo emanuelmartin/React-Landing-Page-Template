@@ -215,7 +215,6 @@ a:focus,
   background-attachment: scroll; /* Prevents issues on mobile */
 }
 
-
 /* Button Styling */
 .btn-custom {
   color: white;
@@ -229,30 +228,39 @@ a:focus,
   right: 20px; /* Places button at right */
 }
 
-@media (max-width: 1024px) {
+/* Ensure background is properly visible on all screen sizes */
+@media (max-width: 1440px) { /* Large screens */
   .intro {
-    background-size: 160% auto; /* Zooms in more for better fitting */
-    background-position: center center; /* Keeps the top part visible */
-    background-attachment: fixed; /* Prevents scrolling */
+    background-size: 130% auto; /* Zoom in slightly */
   }
 }
 
-/* Adjust background size for mobile screens */
-@media (max-width: 768px) {
+@media (max-width: 1024px) { /* Tablets */
   .intro {
-    background-size: 200% auto; /* Zooms in more for better fitting */
-    background-position: center center; /* Keeps the top part visible */
-    background-attachment: fixed; /* Prevents scrolling */
+    background-size: 150% auto; /* Slightly more zoom */
+    background-position: center center;
+    background-attachment: scroll; /* Fixes issues with mobile scrolling */
   }
 }
 
-/* Adjust background for smaller phones */
-@media (max-width: 480px) {
+@media (max-width: 768px) { /* Mobile devices */
   .intro {
-    background-size: 180% auto; /* Avoids extreme cropping on narrow screens */
-    background-attachment: fixed; /* Prevents scrolling */
-    background-position: center center; /* Keeps the top part visible */
+    background-size: 180% auto; /* Avoids extreme cropping */
+    background-position: center top; /* Keeps the main area visible */
+    background-attachment: scroll; /* Prevents issues on iOS/Android */
+  }
+}
 
+@media (max-width: 480px) { /* Small phones */
+  .intro {
+    background-size: 200% auto; /* Ensures proper display */
+    background-position: center top;
+    height: 90vh; /* Adjusts height slightly */
+  }
+
+  .btn-custom {
+    bottom: 10px; /* Adjust button spacing */
+    right: 10px;
   }
 }
 
